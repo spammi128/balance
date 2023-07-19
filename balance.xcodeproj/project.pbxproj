@@ -18,6 +18,7 @@
 		BD905F642A65F2D000767CBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD905F632A65F2D000767CBD /* Preview Assets.xcassets */; };
 		BD905F662A65F2D000767CBD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD905F652A65F2D000767CBD /* Persistence.swift */; };
 		BD905F692A65F2D000767CBD /* balance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD905F672A65F2D000767CBD /* balance.xcdatamodeld */; };
+		BDBBC2DC2A68741500C9A73B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBC2DB2A68741500C9A73B /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BD905F632A65F2D000767CBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD905F652A65F2D000767CBD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD905F682A65F2D000767CBD /* balance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = balance.xcdatamodel; sourceTree = "<group>"; };
+		BDBBC2DB2A68741500C9A73B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BD59F3D82A67479B00B56EC1 /* Info.plist */,
 				BD905F5C2A65F2CF00767CBD /* balanceApp.swift */,
 				BD905F5E2A65F2CF00767CBD /* ContentView.swift */,
+				BDBBC2DB2A68741500C9A73B /* RatingView.swift */,
 				BD59F3CF2A6741AE00B56EC1 /* TaskView.swift */,
 				BD59F3D92A674C3300B56EC1 /* NewTaskView.swift */,
 				BD4250DC2A68464E00B4EEED /* TaskViewClass.swift */,
@@ -163,6 +166,7 @@
 				BD905F662A65F2D000767CBD /* Persistence.swift in Sources */,
 				BD905F5F2A65F2CF00767CBD /* ContentView.swift in Sources */,
 				BD59F3D42A6741D700B56EC1 /* MentalHealthResources.swift in Sources */,
+				BDBBC2DC2A68741500C9A73B /* RatingView.swift in Sources */,
 				BD905F692A65F2D000767CBD /* balance.xcdatamodeld in Sources */,
 				BD59F3DA2A674C3300B56EC1 /* NewTaskView.swift in Sources */,
 				BD59F3D02A6741AE00B56EC1 /* TaskView.swift in Sources */,
