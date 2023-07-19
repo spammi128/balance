@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4250DD2A68464E00B4EEED /* TaskViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4250DC2A68464E00B4EEED /* TaskViewClass.swift */; };
 		BD59F3D02A6741AE00B56EC1 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59F3CF2A6741AE00B56EC1 /* TaskView.swift */; };
 		BD59F3D22A6741C700B56EC1 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59F3D12A6741C700B56EC1 /* BreatheView.swift */; };
 		BD59F3D42A6741D700B56EC1 /* MentalHealthResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59F3D32A6741D700B56EC1 /* MentalHealthResources.swift */; };
 		BD59F3DA2A674C3300B56EC1 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59F3D92A674C3300B56EC1 /* NewTaskView.swift */; };
-		BD59F3DC2A674D8600B56EC1 /* TaskViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59F3DB2A674D8600B56EC1 /* TaskViewClass.swift */; };
 		BD905F5D2A65F2CF00767CBD /* balanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD905F5C2A65F2CF00767CBD /* balanceApp.swift */; };
 		BD905F5F2A65F2CF00767CBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD905F5E2A65F2CF00767CBD /* ContentView.swift */; };
 		BD905F612A65F2D000767CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD905F602A65F2D000767CBD /* Assets.xcassets */; };
@@ -21,12 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD4250DC2A68464E00B4EEED /* TaskViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewClass.swift; sourceTree = "<group>"; };
 		BD59F3CF2A6741AE00B56EC1 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		BD59F3D12A6741C700B56EC1 /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
 		BD59F3D32A6741D700B56EC1 /* MentalHealthResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthResources.swift; sourceTree = "<group>"; };
 		BD59F3D82A67479B00B56EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD59F3D92A674C3300B56EC1 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
-		BD59F3DB2A674D8600B56EC1 /* TaskViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewClass.swift; sourceTree = "<group>"; };
 		BD905F592A65F2CF00767CBD /* balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD905F5C2A65F2CF00767CBD /* balanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balanceApp.swift; sourceTree = "<group>"; };
 		BD905F5E2A65F2CF00767CBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				BD905F5E2A65F2CF00767CBD /* ContentView.swift */,
 				BD59F3CF2A6741AE00B56EC1 /* TaskView.swift */,
 				BD59F3D92A674C3300B56EC1 /* NewTaskView.swift */,
-				BD59F3DB2A674D8600B56EC1 /* TaskViewClass.swift */,
+				BD4250DC2A68464E00B4EEED /* TaskViewClass.swift */,
 				BD59F3D12A6741C700B56EC1 /* BreatheView.swift */,
 				BD59F3D32A6741D700B56EC1 /* MentalHealthResources.swift */,
 				BD905F602A65F2D000767CBD /* Assets.xcassets */,
@@ -168,7 +168,7 @@
 				BD59F3D02A6741AE00B56EC1 /* TaskView.swift in Sources */,
 				BD59F3D22A6741C700B56EC1 /* BreatheView.swift in Sources */,
 				BD905F5D2A65F2CF00767CBD /* balanceApp.swift in Sources */,
-				BD59F3DC2A674D8600B56EC1 /* TaskViewClass.swift in Sources */,
+				BD4250DD2A68464E00B4EEED /* TaskViewClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
