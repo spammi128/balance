@@ -9,11 +9,11 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext)
+    //@Environment(\.managedObjectContext)
     
-   
+    @State private var rating = 0
 
-    private var viewContext
+    //private var viewContext
     
     
 
@@ -34,6 +34,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Text("how are you feeling today?")
+                    RatingView(rating: $rating)
                     
                     Text("anything special for today?")
                         
