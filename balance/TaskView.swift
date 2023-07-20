@@ -24,6 +24,16 @@ struct TaskView: View {
                 .ignoresSafeArea()
             
             VStack{
+                HStack{
+                    Spacer()
+                    NavigationLink(destination: MentalHealthResources()){
+                        Image("exclamation")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 50, height: 50, alignment: .topLeading)
+                    }
+                }
+                .padding([.top, .trailing])
                 
                 HStack{
                     Text("To Do List")

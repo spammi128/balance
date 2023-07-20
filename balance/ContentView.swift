@@ -25,11 +25,22 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack (spacing: 20) {
-                    
+                    HStack{
+                        Spacer()
+                        NavigationLink(destination: MentalHealthResources()){
+                            Image("exclamation")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 50, height: 50, alignment: .topLeading)
+                        }
+                    }
+                    .padding([.top, .trailing])
                     Spacer()
                     
                     Text("welcome to balance!")
                         .font(.title)
+                        .fontWeight(.bold)
+
                     
                     Spacer()
                     
